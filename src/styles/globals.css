@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "FakePearl-ExtraLight";
+  src: url("/fonts/FakePearl-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FakePearl-Light";
+  src: url("/fonts/FakePearl-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FakePearl-Regular";
+  src: url("/fonts/FakePearl-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FakePearl-Medium";
+  src: url("/fonts/FakePearl-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FakePearl-SemiBold";
+  src: url("/fonts/FakePearl-SemiBold.ttf") format("truetype");
+}
