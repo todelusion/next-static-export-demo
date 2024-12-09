@@ -54,6 +54,16 @@ module.exports = {
 #### 解法：改用相對路徑
 將 `/fonts/...` 改為相對路徑，例如 `../../../fonts/...`，確保資源基於實際文件位置正確載入。
 
+```css
+/* 錯誤的引用路徑（靜態輸出默認） */
+url('/fonts/FakePearl-Regular.ttf');
+/* 被解釋為：`https://example.com/fonts/FakePearl-Regular.ttf`（文件不存在）。 */
+
+/* 正確的引用路徑（需要手動修改） */
+url('../../../fonts/FakePearl-Regular.ttf');
+/* 被解釋為：`https://example.com/subpath/fonts/FakePearl-Regular.ttf`。 */
+```
+
 ---
 
 ### 4️⃣ 自動修改字型路徑 ✨
