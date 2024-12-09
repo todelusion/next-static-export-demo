@@ -1,0 +1,62 @@
+.
+├── README.md
+├── config.js
+├── next-env.d.ts
+├── next.config.js
+├── out
+│   ├── 404.html
+│   ├── _next
+│   │   ├── nc2pyE59JpulR7MCNR2VN
+│   │   └── static
+│   │       ├── chunks
+│   │       │   ├── 664-60e06c839f82ba03.js
+│   │       │   ├── framework-cda2f1305c3d9424.js
+│   │       │   ├── main-e6056826ef800c0e.js
+│   │       │   ├── pages
+│   │       │   │   ├── _app-5fbdfbcdfb555d2f.js
+│   │       │   │   ├── _error-54de1933a164a1ff.js
+│   │       │   │   ├── get-started-6e3112d65cfdbebd.js
+│   │       │   │   ├── index-b954cfd11b695691.js
+│   │       │   │   └── learn-more-19050c668789d032.js
+│   │       │   ├── polyfills-c67a75d1b6f99dc8.js
+│   │       │   └── webpack-e50e9853db18b759.js
+│   │       ├── css
+│   │       │   └── 2c4a54a465a5927b.css
+│   │       └── nc2pyE59JpulR7MCNR2VN
+│   │           ├── _buildManifest.js
+│   │           └── _ssgManifest.js
+│   ├── fonts
+│   │   ├── FakePearl-ExtraLight.ttf
+│   │   ├── FakePearl-Light.ttf
+│   │   ├── FakePearl-Medium.ttf
+│   │   ├── FakePearl-Regular.ttf
+│   │   └── FakePearl-SemiBold.ttf
+│   ├── get-started.html
+│   ├── index.html
+│   └── learn-more.html
+├── output.txt
+├── package.json
+├── postcss.config.js
+├── public
+│   └── fonts
+│       ├── FakePearl-ExtraLight.ttf
+│       ├── FakePearl-Light.ttf
+│       ├── FakePearl-Medium.ttf
+│       ├── FakePearl-Regular.ttf
+│       └── FakePearl-SemiBold.ttf
+├── src
+│   ├── pages
+│   │   ├── _app.tsx
+│   │   ├── _document.tsx
+│   │   ├── get-started
+│   │   │   └── index.tsx
+│   │   ├── index.tsx
+│   │   └── learn-more
+│   │       └── index.tsx
+│   └── styles
+│       └── globals.css
+├── tailwind.config.js
+├── tsconfig.json
+└── yarn.lock
+
+
